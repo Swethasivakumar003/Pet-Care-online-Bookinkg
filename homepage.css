@@ -1,0 +1,72 @@
+.body{
+    position: relative;
+    height: 100%;
+   
+}
+
+.wholeDiv {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    vertical-align: middle;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 80%;
+}
+
+.card {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.card img {
+    height: 400px;
+    width: 200px;
+}
+
+.card h4 {
+    margin-top: 20px;
+}
+
+.bookBtn {
+    background-color: orange;
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bookBtn:hover{
+    scale: 1.05;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+.fa {
+    transform: scale(1);
+}
+
+.navbar {
+    z-index: 100;
+}

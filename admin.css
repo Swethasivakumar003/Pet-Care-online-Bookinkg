@@ -1,0 +1,39 @@
+.active{
+    width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .active{
+        width: auto;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+    height: 100px;
+    position: relative;
+}
+
+.icon-con {
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.card p {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}

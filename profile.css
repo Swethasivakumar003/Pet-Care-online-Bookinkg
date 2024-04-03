@@ -1,0 +1,54 @@
+.wholeDiv {
+    position: absolute;
+    top: 29%;
+    left: 36%;
+    vertical-align: middle;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 66vh;
+    width: 29%;
+}
+
+
+.fa {
+    transform: scale(5);
+}
+
+.form {
+    flex: 1;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #E0D0D0;
+}
+
+input {
+    margin: 10px 0 !important;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+    width: 100%;
+    background: whitesmoke;
+}
+  
+
+.submitBtn {
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar {
+    z-index: 100;
+}
